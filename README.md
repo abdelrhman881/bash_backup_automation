@@ -102,12 +102,6 @@ tar -tzvf ~/backup_test/destination/backup-*.tar.gz
 
 Files modified within the last 24 hours should be included, while older files should be excluded.
 
-## Limitations
-
-- Only regular files directly inside the source directory are processed; subdirectories are not searched recursively.
-- File selection is based on modification time, not creation time.
-- The script runs manually and does not include automatic scheduling.
-- GNU/Linux utilities are required.
 
 ## Possible Improvements
 
